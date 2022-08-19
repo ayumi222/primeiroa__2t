@@ -1,13 +1,13 @@
 body {
-  backgound: #ff55AA
+   background: #FFFFFF;
 }
 h1 {
-  text-align: center;
+   text-align: center;
 }
 .caixa1 {
   position: absolute;
   background: blue;
-  color: blueviolet;
+  color: #FFFFFF;
   width: 200px;
   height: 200px;
   right: 0;
@@ -15,8 +15,8 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background: brown;
-  color: aqua;
+  background: green;
+  color: #FFFFFF;
   width: 200px;
   height: 200px;
   right: 205px;
@@ -24,8 +24,8 @@ h1 {
 }
 .caixa3 {
   position: absolute;
-  background: bisque;
-  color: antiquewhite;
+  background: red;
+  color: #FFFFFF;
   width: 200px;
   height: 200px;
   right: 410px;
@@ -33,20 +33,20 @@ h1 {
 }
 .caixa4 {
   position: absolute;
-  background: aquamarine;
-  color: #ff55AA;
+  background: yellow;
+  color: #FFFFFF;
   width: 200px;
   height: 200px;
   right: 615px;
   bottom: 0;
 }
 .menuPrincipal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgb (69, 135, 139);
-  width: 100%;
-  height: 45px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: rgb(69, 135, 139);
+   width: 100%;
+   height: 45px;
 }
 
 nav ul {
@@ -60,12 +60,54 @@ li {
 }
 li a {
   display: block;
-  color: #ffff;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover {
-  background: rgbI(167, 238, 53);
+  background: rgb(167, 238, 53);
   color: black;
+}
+#fusca {
+   width: 20%;
+}
+#fusca:hover {
+  width: 22%;
+}
+.caixaFusca {
+  position: absolute;
+  top: 200px;
+  left: 0;
+   width: 90%;
+   height: 130px;
+   background: rgb(201, 157, 157);
+   margin: 20px;
+   border-color: red;
+   border-width: 20px;
+   border-style: solid;
+   padding: 20px;
+   display: flex;
+   justify-content: end;
+}
+.rodape {
+   width: 100%;
+   height: 50px;
+   background: rgb(0, 0, 0);
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   font-size: large;
+   display: flex;
+   justify-content: center;
+   color: cornsilk;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
+.logoGastao {
+  position: absolute;
+  top: 45px;
+  right: 0;
 }
